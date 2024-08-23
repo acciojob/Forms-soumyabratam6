@@ -26,7 +26,7 @@ const FormState = () => {
   return (
     <Card>
       <h2>Form Section 3: useState Handling</h2>
-      <form id="form-state-link" onSubmit={handleSubmit}>
+      <form id="info-form " onSubmit={handleSubmit}>
         <label htmlFor="full_name">Full Name:</label>
         <input type="text" id="full_name" name="fullName" value={formData.fullName} onChange={handleChange} />
         <br />
